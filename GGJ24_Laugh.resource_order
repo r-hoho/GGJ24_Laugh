@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"QSignals","order":11,"path":"folders/QSignals.yy",},
+    {"name":"Scripts","order":1,"path":"folders/QSignals/Scripts.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"__qsignals_manager_class","order":1,"path":"scripts/__qsignals_manager_class/__qsignals_manager_class.yy",},
+  ],
+}
