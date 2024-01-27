@@ -1,3 +1,5 @@
-global._startscore = 20;
-global._winscore = 30;
+global._startscore = 30;
+global._winscore = 50;
 global._lossscore = 0;
+
+global._likescore = 10;
