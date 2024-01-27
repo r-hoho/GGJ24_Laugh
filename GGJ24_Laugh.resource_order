@@ -1,10 +1,21 @@
 {
   "FolderOrderSettings": [
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    {"name":"QSignals","order":11,"path":"folders/QSignals.yy",},
+    {"name":"QSignals","order":1,"path":"folders/QSignals.yy",},
     {"name":"Scripts","order":1,"path":"folders/QSignals/Scripts.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"GameManager","order":4,"path":"folders/GameManager.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_Card_2","order":2,"path":"objects/obj_Card_2/obj_Card_2.yy",},
+    {"name":"spr_Card_3","order":3,"path":"sprites/spr_Card_3/spr_Card_3.yy",},
+    {"name":"obj_Card_3","order":3,"path":"objects/obj_Card_3/obj_Card_3.yy",},
+    {"name":"obj_Phone_2","order":4,"path":"objects/obj_Phone_2/obj_Phone_2.yy",},
+    {"name":"obj_Phone_3","order":5,"path":"objects/obj_Phone_3/obj_Phone_3.yy",},
+    {"name":"obj_Card_1","order":1,"path":"objects/obj_Card_1/obj_Card_1.yy",},
+    {"name":"spr_Card_1","order":1,"path":"sprites/spr_Card_1/spr_Card_1.yy",},
+    {"name":"obj_Phone_Parent","order":6,"path":"objects/obj_Phone_Parent/obj_Phone_Parent.yy",},
     {"name":"__qsignals_manager_class","order":1,"path":"scripts/__qsignals_manager_class/__qsignals_manager_class.yy",},
+    {"name":"spr_Card_2","order":2,"path":"sprites/spr_Card_2/spr_Card_2.yy",},
   ],
 }
