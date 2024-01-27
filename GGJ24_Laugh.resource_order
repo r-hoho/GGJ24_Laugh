@@ -8,9 +8,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_Card_2","order":2,"path":"objects/obj_Card_2/obj_Card_2.yy",},
+    {"name":"obj_Card_Parent","order":8,"path":"objects/obj_Card_Parent/obj_Card_Parent.yy",},
     {"name":"spr_Card_3","order":3,"path":"sprites/spr_Card_3/spr_Card_3.yy",},
     {"name":"obj_Card_3","order":3,"path":"objects/obj_Card_3/obj_Card_3.yy",},
     {"name":"obj_Phone_2","order":4,"path":"objects/obj_Phone_2/obj_Phone_2.yy",},
+    {"name":"obj_Card_Spawn","order":7,"path":"objects/obj_Card_Spawn/obj_Card_Spawn.yy",},
     {"name":"obj_Phone_3","order":5,"path":"objects/obj_Phone_3/obj_Phone_3.yy",},
     {"name":"obj_Card_1","order":1,"path":"objects/obj_Card_1/obj_Card_1.yy",},
     {"name":"spr_Card_1","order":1,"path":"sprites/spr_Card_1/spr_Card_1.yy",},

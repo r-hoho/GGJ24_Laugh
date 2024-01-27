@@ -1,3 +1,3 @@
 draw_self();
-draw_text(x,y,like);
+draw_text(x,y,_like);
 
