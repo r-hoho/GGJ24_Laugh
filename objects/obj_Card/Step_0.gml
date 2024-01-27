@@ -37,7 +37,7 @@ if (_select == noone) {
     
 		show_debug_message("trash: "+ string(_select));
 		instance_destroy(self);
-		qsignal_emit("Draw_New_Card");
+		qsignal_emit("Draw_New_Card", _topic);
 	}
 
 }

@@ -8,6 +8,7 @@ if (_received != noone) {
     
 	if (_received == _like) {
 	    show_debug_message("I Like This!");
+		
 		_score += 5;
 	}
 	
