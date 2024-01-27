@@ -23,5 +23,21 @@ if (_select == noone) {
 		show_debug_message("selecting: "+ string(_select));
 		qsignal_emit("rece_3", _topic);
 	}
+	
+	if keyboard_check_released(ord("4"))
+	{
+    
+		_select = 4;
+		show_debug_message("selecting: "+ string(_select));
+		qsignal_emit("rece_4", _topic);
+	}
+	
+	if keyboard_check_released(vk_space)
+	{
+    
+		show_debug_message("trash: "+ string(_select));
+		instance_destroy(self);
+		qsignal_emit("Draw_New_Card");
+	}
 
 }

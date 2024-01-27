@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Card_2",
-  "eventList": [],
+  "name": "obj_Phone_4",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_Card_Parent",
-    "path": "objects/obj_Card_Parent/obj_Card_Parent.yy",
+    "name": "obj_Phone_Parent",
+    "path": "objects/obj_Phone_Parent/obj_Phone_Parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Card_2",
-    "path": "sprites/spr_Card_2/spr_Card_2.yy",
+    "name": "spr_Box_1",
+    "path": "sprites/spr_Box_1/spr_Box_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
