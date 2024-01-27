@@ -1,5 +1,7 @@
-_topic = choose( 1,2,3,4,5,6);
+_topic = (irandom_range(1,6))
 _select = noone;
+
+target_x = 0;
 
 switch (_topic) {
     case 1:
