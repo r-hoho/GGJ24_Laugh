@@ -4,3 +4,5 @@ global._lossscore = 0;
 
 global._likescore = 20;
 global._dislikescore = 5;
+
+global._finalscore = 0;

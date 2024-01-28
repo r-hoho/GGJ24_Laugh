@@ -1,4 +1,4 @@
-_topic = (irandom_range(1,3))
+_topic = (irandom_range(1,4))
 _select = noone;
 
 target_x = 0;

@@ -1,8 +1,27 @@
+//Like Translate//
+
+switch (_like) {
+    case 1:
+        _Translate = "CAT"
+        break;
+    case 2:
+        _Translate = "TRAVEL"
+        break;
+    case 3:
+        _Translate = "FOOD"
+        break;
+    case 4:
+        _Translate = "FASHION"
+        break;
+}
+
 // Scrore is bleeding
 
 if (_scoreStatus == 1) && (_disconnected == 0) {
 	
-	 _score -= (1/60) * (GM_UI._total_score/2);
+	 var _1 = (1/60) * ((GM_UI._total_score));
+	 var _2 = (1/60)
+	 _score -= max(_1,_2);
 }
 
 //
@@ -10,8 +29,10 @@ if (_scoreStatus == 1) && (_disconnected == 0) {
 if (_score >= global._winscore) {
     _score = global._winscore;
 	_reset = 1;
+	_queue = 0;
 	qsignal_emit("User_Done", self)
 	qsignal_emit("Score+1")
+
 }
 
 if ((_score <= global._lossscore) && (_disconnected == 0)) {
@@ -60,6 +81,8 @@ if ((_score <= global._lossscore) && (_disconnected == 0)) {
 
 if (_reset == 1) {
 	
+	//_scoreStatus = "pause";
+	
 	if (y >= -50) {
 		y -= 3;
 	} 
@@ -71,10 +94,9 @@ if (_reset == 1) {
 
 if (_reset == 2) {
 
-	_like = choose( 1,2,3);
+	_like = choose( 1,2,3,4);
 	_score = global._startscore;
 	_reset = 3;
-	_queue = 0;
 
 }
 

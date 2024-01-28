@@ -1,3 +1,4 @@
+visible = false;
 _timer_status = noone;
 _timer = 60;
 

@@ -9,6 +9,7 @@ if (_select._like == _card_topic) {
 		qsignal_emit("Play_Done",_select);
 	
 		instance_destroy()
+		//_grey.visible = false;
 	
 		};
 }

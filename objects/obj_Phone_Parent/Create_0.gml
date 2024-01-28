@@ -1,5 +1,6 @@
-_like = choose(1,2,3);
+_like = choose(1,2,3,4);
 _score = global._startscore;
+_Translate = 0;
 
 _scoreStatus = 1;
 

@@ -13,7 +13,7 @@ if (_process_status == 1) {
 	
 	qsignal_emit("Score_Pause",_select)
 	
-	var _play2 = instance_create_depth(_x,_y,0,obj_Play_2);
+	var _play2 = instance_create_depth(_x,_y,-1,obj_Play_2);
 	_play2.image_xscale = 0;
 	_play2._select = _select;
 	_play2._card_topic = _card_topic;

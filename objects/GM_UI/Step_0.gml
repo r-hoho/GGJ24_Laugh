@@ -1,0 +1,1 @@
+//global._finalscore = _total_score;

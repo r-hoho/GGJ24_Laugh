@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Heart",
+    "path": "sprites/spr_Heart/spr_Heart.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

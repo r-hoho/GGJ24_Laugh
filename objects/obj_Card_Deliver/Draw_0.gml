@@ -1,2 +1,2 @@
 draw_self();
-draw_text(x,y,_queue);
+//draw_text(x,y,_queue);

@@ -2,19 +2,19 @@ if (_select == noone) {
 	
 	if keyboard_check_released(ord("1")){
 		_select = obj_Phone_1;
-		target_x = 32;
+		target_x = 21;
 	}
 	
 	if keyboard_check_released(ord("2")){
     
 		_select = obj_Phone_2;
-		target_x = 110;
+		target_x = 115;
 	}
 	
 	if keyboard_check_released(ord("3")){
     
 		_select = obj_Phone_3;
-		target_x = 190;
+		target_x = 210;
 	}
 	
 	if keyboard_check_released(ord("R")){
@@ -29,11 +29,11 @@ if ((_select == obj_Phone_1) or (_select == obj_Phone_2) or (_select == obj_Phon
 	
 		_select._queue += 1;
 		
-		var queue_depth = _select._queue * -1
+		var queue_depth = (_select._queue * -1) +50
 		var _deliver = instance_create_depth(x,y,queue_depth,obj_Card_Deliver);
 		_deliver.sprite_index = self.sprite_index;
-		_deliver.image_xscale = 0.75;
-		_deliver.image_yscale = 0.75;
+		//_deliver.image_xscale = 0.75;
+		//_deliver.image_yscale = 0.75;
 		_deliver._topic = self._topic;
 		_deliver._select = self._select;
 		_deliver.target_x = target_x;

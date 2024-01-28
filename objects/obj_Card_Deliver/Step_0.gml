@@ -6,7 +6,9 @@ if (_queue == 1) {
 	target_y = _select.y;
 	
 	x = lerp(x, target_x, _spd);
-	y = lerp(y, target_y , _spd);
+	y = lerp(y, target_y-5 , _spd);
+	image_xscale = 1;
+	image_yscale = 1;
 	
 }
 
@@ -16,6 +18,8 @@ if (_queue > 1) {
 		
 	x = lerp(x, target_x, _spd);
 	y = lerp(y, target_y + queue_y, _spd);
+	image_xscale = 0.75;
+	image_yscale = 0.75;
 		
 }
 
