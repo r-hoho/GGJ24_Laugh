@@ -1,9 +1,10 @@
-_like = choose(1,2,3,4,5,6);
+_like = choose(1,2,3);
 _score = global._startscore;
 
 _scoreStatus = 1;
 
 _queue = 0;
+_disconnected = 0;
 
 //_received = noone;
 //_reset = 0;
@@ -40,4 +41,13 @@ qsignal_listen("DISLIKE", function(_select) {
 	}
 
 });
+
+qsignal_listen("Disconnected", function(_select) {
+	
+	if (self.id == _select.id) {
+	instance_create_depth(x,y,-100,obj_Disconnected);
+	}
+
+});
+
 

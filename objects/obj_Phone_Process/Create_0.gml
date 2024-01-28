@@ -17,3 +17,12 @@ qsignal_listen("Play_Done", function(_select) {
 	}
 
 });
+
+qsignal_listen("Disconnected", function(_select) {
+	
+	if (self._select.id == _select.id) {
+	instance_destroy(self);
+	}
+
+});
+

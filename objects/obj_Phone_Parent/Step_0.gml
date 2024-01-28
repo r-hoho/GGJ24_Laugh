@@ -1,8 +1,21 @@
 // Scrore is bleeding
 
-if (_scoreStatus == 1) {
+if (_scoreStatus == 1) && (_disconnected == 0) {
 	
 	 _score -= (1/60) ;
+}
+
+if (_score >= global._winscore) {
+    _score = global._winscore;
+}
+
+if ((_score <= global._lossscore) && (_disconnected == 0)) {
+	
+    _score = 0;
+	_disconnected = 1;
+
+	//DO DISCONECTED
+	qsignal_emit("Disconnected", self)
 }
 
 

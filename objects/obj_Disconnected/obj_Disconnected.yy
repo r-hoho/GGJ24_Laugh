@@ -1,13 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Card_Deliver",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
-  ],
+  "name": "obj_Disconnected",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -31,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Card_1",
-    "path": "sprites/spr_Card_1/spr_Card_1.yy",
+    "name": "spr_Disconnected",
+    "path": "sprites/spr_Disconnected/spr_Disconnected.yy",
   },
   "spriteMaskId": null,
   "visible": true,
