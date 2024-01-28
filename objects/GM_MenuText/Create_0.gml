@@ -1,0 +1,1 @@
+draw_set_font(fn_m6_24);

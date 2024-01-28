@@ -3,7 +3,7 @@ _total_loss = 0;
 
 qsignal_listen("Score+1",function() {
 	
-	_total_score += 1;
+	global._finalscore += 1;
 	
 });
 
