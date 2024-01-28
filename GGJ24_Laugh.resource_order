@@ -7,6 +7,7 @@
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"rm_End","order":2,"path":"rooms/rm_End/rm_End.yy",},
     {"name":"obj_Card_Main","order":8,"path":"objects/obj_Card_Main/obj_Card_Main.yy",},
     {"name":"GM_Balance","order":2,"path":"objects/GM_Balance/GM_Balance.yy",},
     {"name":"spr_Card_3","order":3,"path":"sprites/spr_Card_3/spr_Card_3.yy",},
@@ -29,6 +30,7 @@
     {"name":"spr_Disconnected","order":14,"path":"sprites/spr_Disconnected/spr_Disconnected.yy",},
     {"name":"spr_Happy_Bar_2","order":13,"path":"sprites/spr_Happy_Bar_2/spr_Happy_Bar_2.yy",},
     {"name":"obj_Noti_Like","order":10,"path":"objects/obj_Noti_Like/obj_Noti_Like.yy",},
+    {"name":"GM_EndGame","order":6,"path":"objects/GM_EndGame/GM_EndGame.yy",},
     {"name":"GM_UI","order":4,"path":"objects/GM_UI/GM_UI.yy",},
     {"name":"obj_Phone_Process","order":13,"path":"objects/obj_Phone_Process/obj_Phone_Process.yy",},
     {"name":"obj_Phone_Parent","order":6,"path":"objects/obj_Phone_Parent/obj_Phone_Parent.yy",},

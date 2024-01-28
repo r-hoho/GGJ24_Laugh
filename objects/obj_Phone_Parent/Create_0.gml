@@ -6,8 +6,10 @@ _scoreStatus = 1;
 _queue = 0;
 _disconnected = 0;
 
+_reset = 0;
+
 //_received = noone;
-//_reset = 0;
+
 
 qsignal_listen("Play_Done", function(_select) {
 	

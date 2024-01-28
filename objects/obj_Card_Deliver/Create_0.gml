@@ -17,3 +17,17 @@ qsignal_listen("Play_Done", function(_select) {
 	}
 
 });
+
+qsignal_listen("User_Done", function(_select) {
+	
+	if (self._select == "Refresh") {
+	    self._select = obj_Card_Spawn
+	}
+
+	
+	if (self._select.id == _select.id) {
+	
+	instance_destroy(self);
+	}
+
+});

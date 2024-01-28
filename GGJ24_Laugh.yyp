@@ -26,6 +26,7 @@
   },
   "resources": [
     {"id":{"name":"GM_Reset","path":"objects/GM_Reset/GM_Reset.yy",},},
+    {"id":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},},
     {"id":{"name":"obj_Card_Main","path":"objects/obj_Card_Main/obj_Card_Main.yy",},},
     {"id":{"name":"GM_Balance","path":"objects/GM_Balance/GM_Balance.yy",},},
     {"id":{"name":"obj_Phone_1","path":"objects/obj_Phone_1/obj_Phone_1.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"spr_Disconnected","path":"sprites/spr_Disconnected/spr_Disconnected.yy",},},
     {"id":{"name":"spr_Happy_Bar_2","path":"sprites/spr_Happy_Bar_2/spr_Happy_Bar_2.yy",},},
     {"id":{"name":"obj_Noti_Like","path":"objects/obj_Noti_Like/obj_Noti_Like.yy",},},
+    {"id":{"name":"GM_EndGame","path":"objects/GM_EndGame/GM_EndGame.yy",},},
     {"id":{"name":"GM_UI","path":"objects/GM_UI/GM_UI.yy",},},
     {"id":{"name":"obj_Phone_Process","path":"objects/obj_Phone_Process/obj_Phone_Process.yy",},},
     {"id":{"name":"obj_Phone_Parent","path":"objects/obj_Phone_Parent/obj_Phone_Parent.yy",},},
@@ -70,6 +72,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Start","path":"rooms/rm_Start/rm_Start.yy",},},
     {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
+    {"roomId":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

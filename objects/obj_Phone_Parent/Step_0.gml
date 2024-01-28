@@ -2,11 +2,16 @@
 
 if (_scoreStatus == 1) && (_disconnected == 0) {
 	
-	 _score -= (1/60) ;
+	 _score -= (1/60) * (GM_UI._total_score/2);
 }
+
+//
 
 if (_score >= global._winscore) {
     _score = global._winscore;
+	_reset = 1;
+	qsignal_emit("User_Done", self)
+	qsignal_emit("Score+1")
 }
 
 if ((_score <= global._lossscore) && (_disconnected == 0)) {
@@ -44,7 +49,7 @@ if ((_score <= global._lossscore) && (_disconnected == 0)) {
 //if (_score >= global._winscore) { 
 //	_score = global._startscore;
 //	qsignal_emit("Score+1")
-//    _reset = 1;
+    
 //}
 
 //if (_score <= global._lossscore) { 
@@ -53,34 +58,32 @@ if ((_score <= global._lossscore) && (_disconnected == 0)) {
 //    _reset = 1;
 //}
 
-//if (_reset == 1) {
+if (_reset == 1) {
 	
-//	if (y >= -50) {
-//		y -= 3;
-//	} 
-//	if ( y < -50) {
-//		_reset = 2
-//	}
+	if (y >= -50) {
+		y -= 3;
+	} 
+	if ( y < -50) {
+		_reset = 2
+	}
 		
-//}
+}
 
-//if (_reset == 2) {
+if (_reset == 2) {
 
-//	_like = choose( 1,2,3);
-//	_score = global._startscore;
-//	_reset = 3;
+	_like = choose( 1,2,3);
+	_score = global._startscore;
+	_reset = 3;
+	_queue = 0;
 
-//}
+}
 
-//if (_reset == 3){
+if (_reset == 3){
 	
-//	if (y <= 63) {
-//		y += 3;
-//	} 
-//	if ( y > 63) {
-//		_reset = 0
-//	}
-	
-	
-	
-//}
+	if (y <= 63) {
+		y += 3;
+	} 
+	if ( y > 63) {
+		_reset = 0
+	}
+}
