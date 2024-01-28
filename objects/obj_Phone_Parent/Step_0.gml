@@ -1,14 +1,6 @@
+// Scrore is bleeding
 
-
-
-
-
-
-
-
-//// Scrore is bleeding
-
-//if (_reset == 0 ) {_score -= (1/60) ;}
+{_score -= (1/60) ;}
 
 ////
 

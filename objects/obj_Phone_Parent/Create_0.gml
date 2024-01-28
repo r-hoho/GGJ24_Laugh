@@ -14,3 +14,11 @@ qsignal_listen("Play_Done", function(_select) {
 
 });
 
+qsignal_listen("LIKE", function(_select) {
+	
+	if (self.id == _select.id) {
+	_score += global._likescore;
+	}
+
+});
+
