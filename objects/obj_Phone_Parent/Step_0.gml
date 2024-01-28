@@ -1,6 +1,10 @@
 // Scrore is bleeding
 
-{_score -= (1/60) ;}
+if (_scoreStatus == 1) {
+	
+	 _score -= (1/60) ;
+}
+
 
 ////
 
