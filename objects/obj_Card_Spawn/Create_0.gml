@@ -9,3 +9,17 @@ qsignal_listen("Draw_New_Card", function(_topic) {
 		qsignal_emit("Draw_New_Card",_topic);
 	}
 });
+
+
+qsignal_listen("LIKE", function(_select){
+	
+	var _noti = instance_create_depth(_select.x,_select.y,-1,obj_Noti_Like);
+	
+	
+});
+
+qsignal_listen("DISLIKE", function(_select){
+	var _noti = instance_create_depth(_select.x,_select.y,-1,obj_Noti_DONT);
+	
+	
+});

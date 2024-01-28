@@ -1,4 +1,4 @@
-if (_queue == 0) {instance_destroy()};
+if (_queue <= 0) {instance_destroy()};
 
 if (_queue == 1) {
     

@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 //// Scrore is bleeding
 
 //if (_reset == 0 ) {_score -= (1/60) ;}

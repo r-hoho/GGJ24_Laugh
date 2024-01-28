@@ -1,6 +1,8 @@
 _timer_status = noone;
 _timer = 60;
 
+_card_topic = noone;
+
 _process_status = 0;
 
 _x = 0;
