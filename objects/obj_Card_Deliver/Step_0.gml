@@ -19,3 +19,8 @@ if (_queue > 1) {
 		
 }
 
+if (_select == "Refresh") {
+	
+    image_angle += 4;
+}
+
